@@ -1,0 +1,153 @@
+.textHome{
+    width: 50%;
+}
+.formLogIn {
+    width: 50%;
+    background-color:#EBE9E9;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.inscrit {
+    margin-bottom: 20px;
+}
+
+#but {
+    margin-bottom: 20px;
+}
+
+#retour {
+    margin-top: 30px;
+}
+
+.deux {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+
+#carouselExampleControls {
+    width: 100%;
+}
+
+.formLogIn {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#titre { 
+  margin-left: 100px;
+}
+
+#but1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    flex-direction: column;
+    background-color:#EBE9E9;
+    border-radius: 10px;
+}
+
+.textHome, text-end {
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.cadre {
+
+    background-color:#EBE9E9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+
+.list-group, list-group-flush {
+    border-radius: 10px;
+}
+
+.card-body {
+    margin-left: 20px;
+}
+
+.btn, btn-primary btn-lg {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.card-title {
+    margin-left: 40px;
+}
+
+.d-block, w-100 {
+    border-radius: 10px;
+}
+
+.col-auto {
+    background-color:#A9D0F5 ;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-link {
+    margin-left: 30px;
+}
+
+.container-fluid  {
+    margin-left: 200px;
+}
+
+.btn, btn-primary {
+    margin-left: 3px;
+}
+
+.erreur-message {
+    display: inline ;
+    color:#ff5b5b;
+    display: none;
+}
+
+.toto {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+#test {
+    animation: glowing 5s infinite;
+}
+@keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+}
+
+
+
+
